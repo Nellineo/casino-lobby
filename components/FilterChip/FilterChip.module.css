@@ -1,0 +1,42 @@
+.chip {
+    color: #fff;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    text-align: center;
+    margin: 0 1em;
+    border-color: transparent;
+}
+
+.activeChip {
+  padding: 0.5em 0;
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.activeContainer {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5em;
+  background-color: #1875D1;
+  transition: 0.3s;
+  margin-right: 0.4em;
+}
+
+.chip:hover {
+    border-color: #1875D1;
+    transition: 0.3s;
+}
+
+.filterIcon {
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    z-index: 1;
+    margin-right: 0.6em;
+}

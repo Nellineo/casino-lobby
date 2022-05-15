@@ -1,0 +1,30 @@
+.filterContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    background: rgba(0, 0, 0, 0.588);
+}
+
+.filterIcon {
+    width: 20px;
+    height: 20px;
+    color: #1875D1;
+    margin-right: 0.6em;
+}
+
+.clearFiltersIcon {
+    width: 20px;
+    height: 20px;
+    color: #F74452;
+    margin-left: 0.6em;
+}
+
+.clearFiltersIcon:hover {
+    width: 25px;
+    height: 25px;
+    color: #F74452;
+    margin-left: 0.6em;
+    transition: 0.3s;
+}
